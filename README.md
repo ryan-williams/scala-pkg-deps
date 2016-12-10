@@ -24,4 +24,4 @@ Here is a rendered dot-graph on all of [hammerlab/guacamole](https://github.com/
 
 ## Caveats
 
-This tool uses a couple of simple regexs to try to find `package` declarations and `import` statements; as a result, it may produce incorrect results in arbitrary ways.
+This tool uses [a couple of simple regexs](https://github.com/ryan-williams/scala-pkg-deps/blob/826b24ec73728be2b7dca0ca57a9bf2521f559ac/src/main/scala/com/runsascoded/deps/InterPackageDepsToDot.scala#L19-L21) to try to find `package` declarations and `import` statements; as a result, it may produce incorrect results in arbitrary ways.

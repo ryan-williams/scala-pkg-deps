@@ -1,0 +1,1 @@
+This directory contains a snapshot of the `…/readsets` directory in the [hammerlab/guacamole](https://github.com/hammerlab/guacamole) project, for use as a test-case of package/import-parsing and dot-rendering.

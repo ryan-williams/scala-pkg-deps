@@ -1,0 +1,10 @@
+digraph deps {
+	"org.hammerlab.guacamole.readsets.rdd" -> "org.hammerlab.guacamole.readsets.io"
+	"org.hammerlab.guacamole.readsets" -> "org.hammerlab.guacamole.readsets.args"
+	"org.hammerlab.guacamole.readsets.args" -> "org.hammerlab.guacamole.readsets.io"
+	"org.hammerlab.guacamole.readsets" -> "org.hammerlab.guacamole.readsets.rdd"
+	"org.hammerlab.guacamole.readsets.io" -> "org.hammerlab.guacamole.readsets"
+	"org.hammerlab.guacamole.readsets.rdd" -> "org.hammerlab.guacamole.readsets.iterator"
+	"org.hammerlab.guacamole.readsets.args" -> "org.hammerlab.guacamole.readsets"
+	"org.hammerlab.guacamole.readsets" -> "org.hammerlab.guacamole.readsets.io"
+}

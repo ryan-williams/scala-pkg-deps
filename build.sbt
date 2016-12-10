@@ -15,3 +15,5 @@ testDeps += libraries.value('test_utils)
 mainClass := Some("com.runsascoded.deps.InterPackageDepsToDot")
 
 assemblyIncludeScala := true
+
+packAutoSettings
